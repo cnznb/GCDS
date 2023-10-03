@@ -4,7 +4,7 @@ This document is included in the 'GECS: Detecting Extract Class Refactoring Oppo
 # GECS
 /src: The code files which is involved in the experiment \
 /dataset: Graph Representation \
-/data_demo: relevant data of the example involved in Section 3 of the paper \
+/data_demo: relevant data of the example involved in Section 2 of the paper \
 /RQ3: the questionnaire and case study results \
 /sampled_methods: sampled extracted classes from our collected dataset \
 /tool:  a Visual Studio Code (VSCode) extension of gecs 
