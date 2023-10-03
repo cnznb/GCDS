@@ -53,5 +53,5 @@ path: src/Training&Testing/well-trained model
 
 train data: [Tsantalis et al's dataset](https://refactoring.encs.concordia.ca/oracle/tool-refactorings/*All%20Refactorings/TP/Extract%20Class) 
 
-real world data: [Xerces]([GitHub - apache/xerces2-j: Mirror of Apache Xerces2 Java](https://github.com/apache/xerces2-j), [GanttProjects](https://github.com/bardsoftware/ganttproject)
+real world data: [Xerces](https://github.com/apache/xerces2-j), [GanttProjects](https://github.com/bardsoftware/ganttproject)
 
