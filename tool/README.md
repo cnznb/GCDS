@@ -1,4 +1,4 @@
-# GECS: A Intelligent Refactoring Plugin
+# GECS: An Intelligent Refactoring Plugin
 
 ## Plugin Overview
 
