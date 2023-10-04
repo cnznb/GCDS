@@ -1,10 +1,10 @@
 # Introduction
-This document is included in the 'GECS: Detecting Extract Class Refactoring Opportunities via Deep Class Property Enhanced Graph Neural Network' distribution, which we will refer to as GECS. This is to distinguish the recommended implementation of this Extract Class refactoring from other implementations.https://anonymous.4open.science/r/REMS-A23C In this document, the environment required to make and use the GECS tool is described. Some hints about the installation environment are here, but users need to find complete instructions from other sources. They give a more detailed description of their tools and instructions for using them. Our main environment is located on a computer with windows (windows 10) operating system. The fundamentals should be similar for other platforms, although the way in which the environment is configured will be different. What do I mean by environment? For example, to run python code you will need to install a python interpreter, and if you want to use pre-trained model you will need torch.
+This document is included in the 'GECS: Detecting Extract Class Refactoring Opportunities via Deep Class Property Enhanced Graph Neural Network' distribution, which we will refer to as GECS. This is to distinguish the recommended implementation of this Extract Class refactoring from other implementations. In this document, the environment required to make and use the GECS tool is described. Some hints about the installation environment are here, but users need to find complete instructions from other sources. They give a more detailed description of their tools and instructions for using them. Our main environment is located on a computer with windows (windows 10) operating system. The fundamentals should be similar for other platforms, although the way in which the environment is configured will be different. What do I mean by environment? For example, to run python code you will need to install a python interpreter, and if you want to use pre-trained model you will need torch.
 
 # GECS
 /src: The code files which is involved in the experiment \
 /dataset: Graph Representation \
-/data_demo: relevant data of the example involved in Section 3 of the paper \
+/data_demo: relevant data of the example involved in Section 2 of the paper \
 /RQ3: the questionnaire and case study results \
 /sampled_methods: sampled extracted classes from our collected dataset \
 /tool:  a Visual Studio Code (VSCode) extension of gecs 
@@ -53,5 +53,5 @@ path: src/Training&Testing/well-trained model
 
 train data: [Tsantalis et al's dataset](https://refactoring.encs.concordia.ca/oracle/tool-refactorings/*All%20Refactorings/TP/Extract%20Class) 
 
-real world data: [Xerces]([GitHub - apache/xerces2-j: Mirror of Apache Xerces2 Java](https://github.com/apache/xerces2-j)), [GanttProjects](https://github.com/bardsoftware/ganttproject)
+real world data: [Xerces](https://github.com/apache/xerces2-j), [GanttProjects](https://github.com/bardsoftware/ganttproject)
 
