@@ -1,13 +1,13 @@
 # Introduction
-This document is included in the 'GECS: Detecting Extract Class Refactoring Opportunities via Deep Class Property Enhanced Graph Neural Network' distribution, which we will refer to as GECS. This is to distinguish the recommended implementation of this Extract Class refactoring from other implementations. In this document, the environment required to make and use the GECS tool is described. Some hints about the installation environment are here, but users need to find complete instructions from other sources. They give a more detailed description of their tools and instructions for using them. Our main environment is located on a computer with windows (windows 10) operating system. The fundamentals should be similar for other platforms, although the way in which the environment is configured will be different. What do I mean by environment? For example, to run python code you will need to install a python interpreter, and if you want to use pre-trained model you will need torch.
+This document is included in the 'GCDS: Detecting Extract Class Refactoring Opportunities via Deep Class Property Enhanced Graph Neural Network' distribution, which we will refer to as GCDS. This is to distinguish the recommended implementation of this Extract Class refactoring from other implementations. In this document, the environment required to make and use the GCDS tool is described. Some hints about the installation environment are here, but users need to find complete instructions from other sources. They give a more detailed description of their tools and instructions for using them. Our main environment is located on a computer with windows (windows 10) operating system. The fundamentals should be similar for other platforms, although the way in which the environment is configured will be different. What do I mean by environment? For example, to run python code you will need to install a python interpreter, and if you want to use pre-trained model you will need torch.
 
-# GECS
+# GCDS
 /src: The code files which is involved in the experiment \
 /dataset: Graph Representation \
 /data_demo: relevant data of the example involved in Section 2 of the paper \
 /RQ3: the questionnaire and case study results \
 /sampled_methods: sampled extracted classes from our collected dataset \
-/tool:  a Visual Studio Code (VSCode) extension of gecs 
+/tool:  a Visual Studio Code (VSCode) extension of gcds 
 
 # Technique
 ## pre-trained model
@@ -45,7 +45,7 @@ path: src/Training&Testing/
 
 ##  Detecton phase
 
-> With the fine-grained code analysis and pre-trained representation generation, the deep class property graph of a target class is first extracted to capture accurate program semantics. Next, all the collected deep class property graphs are fed into the well-trained graph neural network to obtain a set of extracted field and method candidates. Finally, for each extracted field and method, GECS verifies refactoring pre-conditions and post-conditions to ensure that the suggested candidates are applicable.
+> With the fine-grained code analysis and pre-trained representation generation, the deep class property graph of a target class is first extracted to capture accurate program semantics. Next, all the collected deep class property graphs are fed into the well-trained graph neural network to obtain a set of extracted field and method candidates. Finally, for each extracted field and method, GCDS verifies refactoring pre-conditions and post-conditions to ensure that the suggested candidates are applicable.
 
 path: src/Training&Testing/well-trained model
 
